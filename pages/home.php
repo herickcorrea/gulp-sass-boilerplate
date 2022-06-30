@@ -5,9 +5,9 @@
 		'url' => 'url-amigável-sem-barras',
 	);
 
-	include_once $_SERVER['DOCUMENT_ROOT'].'/partials/header.php';
+	include_once $app['root_dir'].'./partials/header.php';
 ?>
 <main role="main">
-	<h2>Home - Main Content</h2>
+	<h2>Home - Main Content!</h2>
 </main>
-<?php include_once $_SERVER['DOCUMENT_ROOT'].'/partials/footer.php'; ?>
+<?php include_once $app['root_dir'].'/partials/footer.php'; ?>

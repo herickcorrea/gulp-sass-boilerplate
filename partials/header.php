@@ -4,10 +4,10 @@
 <head>
 	<title><?php echo $settings['title']; ?></title>
 
-	<link rel="icon" href="<?php echo $app['path']; ?>/images/optimized/favicon-transparent-1.png" sizes="512x512" />
+	<link rel="icon" href="<?php echo $app['static']; ?>images/optimized/favicon-transparent-1.png" sizes="512x512" />
 	
-	<link rel="canonical" href="<?php echo $app['path'].'/'.urlRoutes()['page-name']; ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo $app['path']; ?>/css/style.css">
+	<link rel="canonical" href="<?php echo $app['static'].'/'.urlRoutes()['page-name']; ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo $app['static']; ?>/css/template.min.css">
 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<meta name="robots" content="noindex,follow"/>
@@ -16,17 +16,17 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="<?php echo $settings['title']; ?>" />
 	<meta property="og:description" content="<?php echo $settings['description']; ?>" />
-	<meta property="og:url" content="https://comparadores.webitcoin.com.br/<?php echo $settings['url']; ?>/" />
+	<meta property="og:url" content="https://herickcorrea.com.br/<?php echo $settings['url']; ?>/" />
 	<meta property="og:site_name" content="Comparadores Webitcoin" />
-	<meta property="og:image" content="<?php echo $app['path']; ?>/images/optimized/favicon-transparent-1.png" />
-	<meta property="og:image:secure_url" content="<?php echo $app['path']; ?>/images/optimized/favicon-transparent-1.png" />
+	<meta property="og:image" content="<?php echo $app['static']; ?>/images/optimized/favicon-transparent-1.png" />
+	<meta property="og:image:secure_url" content="<?php echo $app['static']; ?>/images/optimized/favicon-transparent-1.png" />
 	<meta property="og:image:width" content="520" />
 	<meta property="og:image:height" content="520" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:description" content="<?php echo $settings['description']; ?>" />
 	<meta name="twitter:title" content="<?php echo $settings['title']; ?>" />
-	<meta name="twitter:image" content="<?php echo $app['path']; ?>/images/optimized/favicon-transparent-1.png" />
+	<meta name="twitter:image" content="<?php echo $app['static']; ?>/images/optimized/favicon-transparent-1.png" />
 </head>
 <body class="<?php echo 'current-page-'.urlRoutes()['page-name']; ?>" data-path="/app/">
 <header id="mainHeader">
@@ -39,37 +39,43 @@
 							<span>Título do Projeto</span>
 						</a>
 					</h1>
-					<h2 class="hide">Descrição do Projeto</h2>
+					<h2>Descrição do Projeto</h2>
 				</div>
+				
+				<hr>
 				
 				<div class="col-xs-6 col-xl-8 col-sm-9 col-md-8">
 					<nav class="mainMenu">
+						<h2 class="hide">Menu do Projeto</h2>
 						<div class="wrapMenu">
 							<?php
 								mainMenu(array(
 									'precos' => array(
-										'title' => 'Comparador de preços do Bitcoin nas Exchanges',
-										'label' => '<strong>Preço do Bitcoin <span>nas Exchanges</span></strong>',
-										'icon' => 'icon-logo-bitcoin',
-										'url' => 'comparador-de-preco-do-bitcoin-em-exchanges',
+										'title' => 'Portfolio Herick Correa',
+										'label' => 'Portfolio <strong>Herick Correa</strong>',
+										'icon' => '',
+										'url' => 'https://herickcorrea.com.br',
 									),
 									'taxas' => array(
-										'title' => 'Comparador de Taxas das Exchanges',
-										'label' => '<strong>Comparador de Taxas <span>das Exchanges</span></strong>',
-										'icon' => 'icon-lupa',
-										'url' => 'comparador-de-exchanges',
+										'title' => 'Projetos Herick Correa',
+										'label' => 'Projetos <strong>Herick Correa</strong>',
+										'icon' => '',
+										'url' => 'https://herickcorrea.com.br/portfolio/portfolio-web-designer/',
 									),
 									'acessos' => array(
-										'title' => 'Comparador de Acesso das Exchanges',
-										'label' => '<strong>Comparador de <span>Acessos</span></strong>',
-										'icon' => 'icon-similarweb',
-										'url' => 'comparadores-de-acessos-das-exchanges',
+										'title' => 'Contato Herick Correa',
+										'label' => 'Contato <strong>Herick Correa</strong>',
+										'icon' => '',
+										'url' => 'mailto:contato@herickcorrea.com.br',
 									)
 								));
 							?>
 						</div>
 					</nav>
 				</div>
+
+				<hr>
+				
 			</div>
 		</div>
 	</div>

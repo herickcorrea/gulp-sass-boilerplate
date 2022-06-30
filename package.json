@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herickcorrea/gulp-preset-babel-browsersync.git"
+    "url": "git+https://github.com/herickcorrea/gulp-sass-boilerplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/herickcorrea/gulp-preset-babel-browsersync/issues"
+    "url": "https://github.com/herickcorrea/gulp-sass-boilerplate"
   },
-  "homepage": "https://github.com/herickcorrea/gulp-preset-babel-browsersync#readme",
+  "homepage": "https://github.com/herickcorrea/gulp-sass-boilerplate",
   "devDependencies": {
     "@babel/core": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
@@ -32,18 +32,18 @@
     "gulp-connect-php": "^1.0.3",
     "gulp-csso": "^3.0.1",
     "gulp-imagemin": "^6.1.1",
-    "gulp-less": "^4.0.1",
-    "gulp-less-import": "^1.0.0",
-    "gulp-less-sourcemap": "^1.4.4",
     "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify-es": "^2.0.0",
     "gulp-webp": "^4.0.1",
+    "node-sass": "^7.0.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "decompress": "^4.2.1"
+    "decompress": "^4.2.1",
+    "sass": "^1.53.0"
   }
 }
