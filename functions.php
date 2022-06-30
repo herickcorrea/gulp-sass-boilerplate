@@ -61,7 +61,7 @@ function mainMenu($menuItens)
 	{
 		$html .= '
 			<li '.currentMenuitem($item['url']).'>
-				<a href="/'.$item['url'].'" title="'.$item['title'].'">
+				<a href="'.$item['url'].'" title="'.$item['title'].'">
 					<i class="'.$item['icon'].'"></i>
 					'.$item['label'].'
 				</a>

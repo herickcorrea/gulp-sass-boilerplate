@@ -1,17 +1,17 @@
 
-import TemplateFunctions from '/js/modules/Template.js';
+import TemplateFunctions from '../modules/Template.js';
 
 class Home
 {
-	algumaCoisaHome()
+	something()
 	{
-		//alert('instalado')
+		console.log('Script home instalado')
 	}
 
 	init(options)
 	{
 		let self = this;
-		self.algumaCoisaHome();
+		self.something();
 	}
 }
 

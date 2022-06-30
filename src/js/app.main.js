@@ -1,13 +1,13 @@
 
 /* IMPORTAÇÕES */
 
-import TemplateFunctions from '/js/modules/Template.js';
-import Home from '/js/modules/Home.js';
+import TemplateScripts from './modules/Template.js';
+import HomeScripts from './pages/Home.js';
 
 /* INSTANCIA CLASSES */
 
-const template = new TemplateFunctions;
-const home = new Home;
+const template = new TemplateScripts;
+const home = new HomeScripts;
 
 /* RUN EVENTOS HABILITANDO JQUERY */
 

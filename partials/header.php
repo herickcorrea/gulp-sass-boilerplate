@@ -51,20 +51,20 @@
 							<?php
 								mainMenu(array(
 									'precos' => array(
-										'title' => 'Portfolio Herick Correa',
-										'label' => 'Portfolio <strong>Herick Correa</strong>',
+										'title' => 'Site do desenvolvedor Herick Correa',
+										'label' => '<strong>Site do desenvolvedor</strong> Herick Correa',
 										'icon' => '',
 										'url' => 'https://herickcorrea.com.br',
 									),
 									'taxas' => array(
-										'title' => 'Projetos Herick Correa',
-										'label' => 'Projetos <strong>Herick Correa</strong>',
+										'title' => 'Portfolio Herick Correa',
+										'label' => '<strong>Portfolio</strong> Herick Correa',
 										'icon' => '',
 										'url' => 'https://herickcorrea.com.br/portfolio/portfolio-web-designer/',
 									),
 									'acessos' => array(
 										'title' => 'Contato Herick Correa',
-										'label' => 'Contato <strong>Herick Correa</strong>',
+										'label' => '<strong>Contato</strong> Herick Correa',
 										'icon' => '',
 										'url' => 'mailto:contato@herickcorrea.com.br',
 									)
